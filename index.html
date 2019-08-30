@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Rasa&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div id="mySidenav" class="sidenav">
+                <a href="#H" id="home">Home</a>
+                <a href="#HC" id="hcs">Html&Css</a>
+                <a href="#GH" id="git">GitHub</a>
+                <a href="#JS" id="javaS">JavaScript</a>
+                <a href="#J" id="java">Java</a>
+                <a href="#P" id="python">Python</a>
+                <a href="#AU" id="about">About us</a>
+        </div>
+
+    <div id="H"></div>    
+    <div id="HC"></div>
+    <div id="GH">
+<<<<<<< HEAD
+=======
+        <a href=""></a>
+        <img id="img" src="img/123.png" alt="this is how to create new repository ">
+        <img id="img1" src="img/branching.png" alt="this is branch">
+            
+            <ul class="step1">Step 1. Create a Repository
+            </nlabel for="step1">To create a new repository</label>
+                <li class="step1"> In the upper right corner, next to your avatar or identicon, click  and then select New repository.</li>
+                <li class="step1">Name your repository</li>
+                <li class="step1">Write a short description.</li>
+                <li class="step1">Select Initialize this repository with a README.</li>
+            </ul>
+            <br>
+            Step 2. Create a Branch
+            <br>
+            <!-- Branching is the way to work on different versions of a repository at one time.
+            By default your repository has one branch named master which is considered to be the definitive branch.
+            We use branches to experiment and make edits before committing them to master.
+            When you create a branch off the master branch, 
+            you’re making a copy, or snapshot, 
+            of master as it was at that point in time. 
+            If someone else made changes to the master branch while you were working on your branch, 
+            you could pull in those updates. -->
+            <ul>This diagram shows:</ul>
+                <li>The master branch</li>
+                <li>A new branch called feature (because we’re doing ‘feature work’ on this branch)</li>
+                <li>The journey that feature takes before it’s merged into master</li>
+    </div>
+
+>>>>>>> ad10fb9d24949025c96842e24c0579ffb677b501
+    <div id="JS"></div>
+    <div id="J">
+		<table width="100%" style="padding-left: 10px" >
+			<tr>
+				<td width="60%">
+					<table width="100%">
+                        <!-- left and top -->
+						<tr>
+							<td height="300px" style="background-color:#ffe6d9"> 
+
+<pre style='color:#000000;background:#ffffff;'><span style='color:#800000; font-weight:bold; '>package</span><span style='color:#004a43; '> prewmad</span><span style='color:#800080; '>;</span>
+
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> java</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>awt</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>BorderLayout</span><span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> java</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>awt</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>GridLayout</span><span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> java</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>awt</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>event</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>ActionEvent</span><span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> java</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>awt</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>event</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>ActionListener</span><span style='color:#800080; '>;</span>
+
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> javax</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>swing</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>JButton</span><span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> javax</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>swing</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>JFrame</span><span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> javax</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>swing</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>JLabel</span><span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> javax</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>swing</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>JPanel</span><span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> javax</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>swing</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>JTextArea</span><span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>import</span><span style='color:#004a43; '> javax</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>swing</span><span style='color:#808030; '>.</span><span style='color:#004a43; '>JTextField</span><span style='color:#800080; '>;</span>
+
+<span style='color:#800000; font-weight:bold; '>public</span> <span style='color:#800000; font-weight:bold; '>class</span> TestBean <span style='color:#800080; '>{</span>
+
+<span style='color:#800000; font-weight:bold; '>private</span> JTextField nameField<span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>private</span> JTextField mailField<span style='color:#800080; '>;</span>
+<span style='color:#800000; font-weight:bold; '>private</span> JTextArea messageArea<span style='color:#800080; '>;</span>
+
+<span style='color:#808030; '>.</span><span style='color:#808030; '>.</span><span style='color:#808030; '>.</span>
+
+<span style='color:#800080; '>}</span>
+</pre>
+<!--Created using ToHtml.com on 2019-08-29 05:29:04 UTC -->
+        
+                            </td>
+                        <!-- right and top -->
+							<td height="300px" style="background-color:#ebd3e8;">
+                                 
+<pre style='color:#000000;background:#ffffff;'><span style='color:#800000; font-weight:bold; '>public</span> void myFram() <span style='color:#800080; '>{</span>
+    JFrame demo <span style='color:#808030; '>=</span> <span style='color:#800000; font-weight:bold; '>new</span> JFrame<span style='color:#808030; '>(</span><span style='color:#0000e6; '>"Java Demo"</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    demo<span style='color:#808030; '>.</span>setSize<span style='color:#808030; '>(</span><span style='color:#008c00; '>400</span><span style='color:#808030; '>,</span> <span style='color:#008c00; '>300</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    demo<span style='color:#808030; '>.</span>setDefaultCloseOperation<span style='color:#808030; '>(</span>JFrame<span style='color:#808030; '>.</span>EXIT_ON_CLOSE<span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    JPanel jp1 <span style='color:#808030; '>=</span> <span style='color:#800000; font-weight:bold; '>new</span> JPanel<span style='color:#808030; '>(</span><span style='color:#800000; font-weight:bold; '>new</span> GridLayout<span style='color:#808030; '>(</span><span style='color:#008c00; '>5</span><span style='color:#808030; '>,</span> <span style='color:#008c00; '>2</span><span style='color:#808030; '>)</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    JLabel nameLabel <span style='color:#808030; '>=</span> <span style='color:#800000; font-weight:bold; '>new</span> JLabel<span style='color:#808030; '>(</span><span style='color:#0000e6; '>"Name: "</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    nameField <span style='color:#808030; '>=</span> <span style='color:#800000; font-weight:bold; '>new</span> JTextField<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    jp1<span style='color:#808030; '>.</span>add<span style='color:#808030; '>(</span>nameLabel<span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    jp1<span style='color:#808030; '>.</span>add<span style='color:#808030; '>(</span>nameField<span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+
+    JLabel mailLabel <span style='color:#808030; '>=</span> <span style='color:#800000; font-weight:bold; '>new</span> JLabel<span style='color:#808030; '>(</span><span style='color:#0000e6; '>"Email: "</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    mailField <span style='color:#808030; '>=</span> <span style='color:#800000; font-weight:bold; '>new</span> JTextField<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    jp1<span style='color:#808030; '>.</span>add<span style='color:#808030; '>(</span>mailLabel<span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    jp1<span style='color:#808030; '>.</span>add<span style='color:#808030; '>(</span>mailField<span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+
+<span style='color:#808030; '>.</span><span style='color:#808030; '>.</span><span style='color:#808030; '>.</span>
+
+<span style='color:#800080; '>}</span>
+</pre>
+							
+							</td>
+                        </tr>
+                        <!-- left and bottom -->
+						<tr>
+							<td style="background-color:#fff3ee">
+								 
+<pre style='color:#000000;background:#ffffff;'>...
+
+JButton b2 = new JButton()<span style='color:#808030; '>;</span>
+b2.setText("SUBMIT")<span style='color:#808030; '>;</span>
+b2.addActionListener(new ActionListener() <span style='color:#800080; '>{</span>
+    <span style='color:#800000; font-weight:bold; '>public</span> <span style='color:#bb7977; '>void</span> actionPerformed<span style='color:#808030; '>(</span>ActionEvent e<span style='color:#808030; '>)</span> <span style='color:#800080; '>{</span>
+        <span style='color:#bb7977; font-weight:bold; '>System</span><span style='color:#808030; '>.</span>out<span style='color:#808030; '>.</span>println<span style='color:#808030; '>(</span><span style='color:#0000e6; '>"Name:"</span> <span style='color:#808030; '>+</span> nameField<span style='color:#808030; '>.</span>getText<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>System</span><span style='color:#808030; '>.</span>out<span style='color:#808030; '>.</span>println<span style='color:#808030; '>(</span><span style='color:#0000e6; '>"Mail:"</span> <span style='color:#808030; '>+</span> mailField<span style='color:#808030; '>.</span>getText<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+        <span style='color:#bb7977; font-weight:bold; '>System</span><span style='color:#808030; '>.</span>out<span style='color:#808030; '>.</span>println<span style='color:#808030; '>(</span><span style='color:#0000e6; '>"Message:"</span> <span style='color:#808030; '>+</span> messageArea<span style='color:#808030; '>.</span>getText<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    <span style='color:#800080; '>}</span>	
+<span style='color:#800080; '>}</span>)<span style='color:#808030; '>;</span>
+
+...
+</pre>
+
+                            </td>
+                        <!-- right and bottom -->
+							<td height="300px" style="background-color:#e8e8d0;">
+                                
+<pre style='color:#000000;background:#ffffff;'><span style='color:#800000; font-weight:bold; '>public</span> <span style='color:#800000; font-weight:bold; '>static</span> void main(String[] args) <span style='color:#800000; font-weight:bold; '>throws</span> Exception <span style='color:#800080; '>{</span>
+    TestBean tb <span style='color:#808030; '>=</span> <span style='color:#800000; font-weight:bold; '>new</span> TestBean<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+    tb<span style='color:#808030; '>.</span>myFram<span style='color:#808030; '>(</span><span style='color:#808030; '>)</span><span style='color:#800080; '>;</span>
+
+<span style='color:#800080; '>}</span>
+</pre>
+
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="40%">
+					<video id="video" width="500" controls autoplay>
+					<source src="video/recording.mp4">
+					</video>
+				</td>
+			</tr>
+		</table>
+		</table>
+    <div id="P">
+            <div class="title">
+                    <h1>Python</h1>
+                    <h2>Present by Yuki-san desuyo</h2>
+                    <h2>BMI calculation System</h2>
+                </div>
+                <ul class="box">
+                    <div class="header">
+                        <h2>code ↓</h2>
+                    </div>
+                        <li class="small1">
+                            <ul>
+                                    <li>print("===============")</li>
+                                    <li>print("BMI calculation")</li>
+                                    <li>print("===============")</li>
+                            </ul>
+                        </li>
+                        <li class="small2">
+                            <ul>
+                                    <li>name = input('What your name?：')</li>
+                                    <li>age = input('How old are you?：')</li>
+                                    <li>height = input('How tall are you?(cm)：')</li>
+                                    <li>weight = input('What is your weight?(kg)：')</li>
+                                    <li>bmi = weight / height * height</li>
+                            </ul>
+                        </li>
+                        <li class="small3">
+                            <ul>
+                                    <li>print(name)</li>
+                                    <li>print(age + "age")</li>
+                                    <li>print(height + "cm")</li>
+                                    <li>print(weight + "kg")</li>
+                                    <li>print("your BMI is " + bmi)</li>
+                            </ul>
+                        </li>
+                        <li class="small4">
+                            <ul>
+                                    <li>if bmi < 18.5 :</li>
+                                    <li>....print("Your body mass index is weight deficit.")</li>
+                                    <li>....print("You are too skinny. you need to eat and exercise more.")</li>
+                                    <li>elif bmi < 24:</li>
+                                    <li>....print("Your body mass index is norm.")</li>
+                                    <li>....print("You are very healthy. Let's keep in shape.")</li>
+                                    <li>elif bmi < 30:</li>
+                                    <li>....print("Your body mass index is weight over.")</li>
+                                    <li>....print("This is a little bit out of shape. let's start to exercise.")</li>
+                            </ul>
+                        </li>
+                        <li class="small5">
+                            <ul>
+                                    <li>elif bmi < 35:</li>
+                                    <li>....print("Your body mass index is obesity first degree.")</li>
+                                    <li>....print("You need to exercise and dietary restrictions.")</li>
+                                    <li>elif bmi < 40:</li>
+                                    <li>....print("Your body mass index is obesity second degree.")</li>
+                                    <li>....print("You need to strict exercise and dietary restrictions.")</li>
+                                    <li>elif bmi >= 40:</li>
+                                    <li>....print("Your body mass index is obesity third degree.")</li>
+                                    <li>....print("You are actually in a dangerous zone.")</li>
+                                    <li>....print("Please go to hospital and try to lose weight for healthy.")</li>
+                                    <li>else:</li>
+                                    <li>....print("Impossible to measure")</li>
+                            </ul>
+                        </li>
+                </ul>
+            </div>
+    </div>
+    
+
+</body>
+</html>

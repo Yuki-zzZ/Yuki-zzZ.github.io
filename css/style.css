@@ -1,0 +1,266 @@
+<<<<<<< .merge_file_a10320
+=======
+*{
+    margin                  : 0px;
+}
+html{
+    scroll-behavior         : smooth;
+}
+#container{
+    width                   :100%;
+    
+}
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position: fixed; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: black; /* White text color */
+    border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
+    border: 1px solid black;
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a background */
+#home {
+    top: 20px;
+    background-color : white;
+}
+#hcs {
+    top: 80px;
+    background-color : #F6F9F8;
+}
+
+#git {
+    top: 140px;
+    background-color        : #D9F2F7;
+}
+
+#javaS {
+    top: 200px;
+    background-color        : #FFF1A3;
+}
+
+#java {
+    top: 260px;
+    background-color        : #F0FAFA;
+}
+#python {
+    top: 320px;
+    background-color        : #4281AA;
+}
+#about {
+    top                     : 380px;
+    background-color        : gray;
+}
+
+/* 
+======================================
+   this is the Home page
+======================================
+*/
+#H{
+    background-image        : url()
+    
+    /* background-color        : black; */
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+
+/* 
+======================================
+   this is the Html&Css html page
+======================================
+*/
+#HC{
+    background-color        :  #F6F9F8;
+    /* background-image        : linear-gradient (to bottom, #F6F9F8, #D9F2F7); */
+    width                   : 100%;
+    height                  : 1200px;
+    /* background-size         : cover;   */
+}
+/*  
+======================================
+    this is the GitHub html page
+======================================
+*/
+#img{
+    display                 : block;
+    float                   : left;
+    margin                  : 10px ;
+}
+.step1{
+    right: 100px;
+    /* margin                  : 15px; */
+}
+#GH{
+    /* background-image        : linear-gradient(to bottom, #D9F2F7,#FFF1A3); */
+    background-color        : #D9F2F7;
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;
+    padding                 : 30px;
+    font-size               : 1.25em;
+    /* display                 : block;
+    margin                  : px; */
+}
+/*
+======================================
+  this is the JavaScript html page
+======================================
+*/
+#JS{
+    /* background-image        : linear-gradient(to bottom,#FFF1A3,#F0FAFA); */
+    
+    background-color        : #FFF1A3;
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+/*
+======================================
+      this is the JAVA html page
+======================================
+*/
+#J{
+<<<<<<< HEAD
+	background-color        :#F0FAFA;
+=======
+    /* background-image        : linear-gradient(to bottom,#F0FAFA,#4281AA); */
+    
+    background-color        : #F0FAFA;
+>>>>>>> ad10fb9d24949025c96842e24c0579ffb677b501
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;     
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+/*
+======================================
+    this is the Python html page
+======================================
+*/
+#P{
+    background-image        : linear-gradient(to bottom, #4281AA, #F6F9F8);
+    background-color        : #4281AA;
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+.header{
+    width: 1500;
+    height: 70px;
+    background-color: #4281AA;
+}
+.header h2{
+    padding-right: 900px;
+    color:black;
+}
+.title{
+    width: 500px;
+    height: 300px;
+    background-color: skyblue;
+    float: right;
+    margin-right: 150px;
+    margin-top: 100px;
+    opacity: 0.5;
+    border: 10px solid rgb(169, 169, 230);
+}
+h1,h2{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+h1{
+    font-size: 3em;
+}
+.title h2{
+    opacity: 0.5;
+}
+.small1{
+    width: 300px;
+    height: 80px;
+    background-color: black;
+    border: 7px solid green;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: block;
+}
+.small2{
+    width: 400px;
+    height: 130px;
+    background-color: black;
+    border: 7px solid green;
+    color: white;
+    margin-left: 200px;
+}
+.small3{
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    border: 7px solid green;
+    color: white; 
+    margin-left: 100px;
+}
+.small4{
+    width: 470px;
+    height: 200px;
+    background-color: black;
+    border: 7px solid green;
+    color: white; 
+    margin-left: 200px;
+    float: left;
+}
+.small5{
+    width: 500px;
+    height: 230px;
+    background-color: black;
+    border: 7px solid green; 
+    color: white; 
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+}
+li.small1:hover{
+    position: relative;
+    transform: translateX(430px) translateY(150px) scale(4,4);
+}
+li.small2:hover{
+    position: relative;
+    transform: translateX(200px) translateY(200px) scale(3,3);
+}
+li.small3:hover{
+    position: relative;
+    transform: translateX(350px) translateY(0px) scale(4,4);
+}
+li.small4:hover{
+    position: relative;
+    transform: translateX(250px) translateY(-100px) scale(3,3);
+}
+li.small5:hover{
+    position: relative;
+    transform: translateX(-250px) translateY(-180px) scale(3,3);
+}
+
+/* 
+======================================
+   this is About us html page
+======================================
+*/
+
+>>>>>>> .merge_file_a11740
